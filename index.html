@@ -7,15 +7,14 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>TC Rotunda | Portfolio</title>
+    <title>MSFT Hockey</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet" />
@@ -28,7 +27,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase" id="mainNav">
         <div class="container">
-            <button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" type="button"
+            
+            <button class="navbar-toggler navbar-toggler-right text-uppercase text-secondary rounded" type="button"
                 data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -36,194 +36,100 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="#home">Home</a>
+                        <a class="nav-link " href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="/pages/schedule.html">Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#connect">Connect</a>
+                        <a class="nav-link" href="/pages/about.html">About</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
+    
     <!-- Header -->
-    <header class="masthead bg-primary text-white text-center" id="home">
+    <header class="masthead bg-primary text-secondary" id="home">
         <div class="container">
-            <img class="img-fluid mb-5 d-block mx-auto rounded-circle" src="static/images/my_photo/tc_rotunda2a.jpeg" alt="" />
-            <h1 class="mb-0">Hi, I'm TC</h1>
-            <hr />
-            <h2 class="mb-0">
-                Data Specialist
-            </h2>
-
-            <!-- Replace this text with your brand statement or other short text about you. -->
-            <p class="brand-statement">
-                6+ years of experience working as a Business Analyst or Data Analyst for top financial firms such as BNY Mellon, JP Morgan, and Charles Schwab.
-                I graduated from Suffolk University, Sawyer Business School, where I earned a degree in Management with a Minor in Information Systems. 
-                I have also completed a data analytics bootcamp through UC Berkeley where I developed skills such as Python, R, JavaScript, Tableau.<br><br>
-                I learn quickly and pick up new technologies easily. A few examples are: JIRA, Confluence, SAP Business Objects, and taking on the role of Pseudo Scrum Master.
-                Additionally, I get along with many different types of people, which is evident based on working with trading desks where there are diverse personality types.<br><br>
-                As a Data Analyst I hope to use data to help companies drive business strategy, improve performance, and deliver unparalleled user experiences. 
-                Working in these pseudo technology roles I have been able to work on teams with people who have a wide variety of roles and experience. 
-                I often speak with both sides of the business: end users and developers, which furthers my ability to work with many different personality types and business perspectives.
-            </p>
+                <h1 id=logo class="mb-0"><a href="/index.html"><img class="img-fluid" src="static/images/logo-grey.png" alt="" /></a> MSFT's</h1>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
+    <!-- Upcoming Events Section -->
+    <section class="upcomingevents bg-secondary" id="upcomingevents">
         <div class="container">
-            <h2 class="text-center text-uppercase text-secondary mb-0">
-                Portfolio
+            <h2 class="text-center text-uppercase text-primary mb-0">
+                Upcoming Events
             </h2>
             <hr class="star-dark mb-5" />
 
-            <!-- Each project should include a header and a picture or animated gif.-->
+            <!-- Each Event should be a column on the page-->
             <div class="row">
                 <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-1">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <p>Mars</p>
+                    <a class="upcomingevents-item d-block mx-auto" data-toggle="modal" data-target="#upcomingevents-modal-1">
+                        <div class="upcomingevents-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="upcomingevents-item-caption-content my-auto w-100 text-center text-secondary">
+                                <p>10u Ironman</p>
                                 <i class="fas fa-search-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="static/images/portfolio/mars.jpeg" alt="" />
+                        <img class="img-fluid" src="" alt="" />
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-2">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <p>Earthquakes</p>
+                    <a class="upcomingevents-item d-block mx-auto" data-toggle="modal" data-target="#upcomingevents-modal-2">
+                        <div class="upcomingevents-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="upcomingevents-item-caption-content my-auto w-100 text-center text-secondary">
+                                <p>12u Ironman</p>
                                 <i class="fas fa-search-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="static/images/portfolio/earthquakes.jpeg" alt="" />
+                        <img class="img-fluid" src="" alt="" />
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-modal-3">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <p>Bellybutton Bacteria</p>
+                    <a class="upcomingevents-item d-block mx-auto" data-toggle="modal" data-target="#upcomingevents-modal-3">
+                        <div class="upcomingevents-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="upcomingevents-item-caption-content my-auto w-100 text-center text-secondary">
+                                <p>Special Guest</p>
                                 <i class="fas fa-search-plus fa-2x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="static/images/portfolio/bacteria.jpeg" alt="" />
+                        <img class="img-fluid" src="" alt="" />
                     </a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-white">About Me</h2>
-            <hr class="star-light mb-5" />
-
-            <p class="about-me text-center">
-                I have a passion for gathering, transforming, analyzing, and presenting data to 
-                provide meaningful solutions to business questions. When possible I like 
-                to use my skills to create intuitive and creative visiuals.
-            </p>
-        </div>
-        <div class="container">
-            <div class="col-md-10 offset-md-1">
-                <div class="row text-center skills-row">
-                    <div class="col">
-                        <i class="fab fa-python fa-3x"></i>
-                    </div>
-                    <div class="col">
-                        <i class="fab fa-js fa-3x"></i>
-                    </div>
-                    <!-- Currently no Font Awesome for Tableau =( -->
-                    <div class="col">
-                        <i class="fab fa-tableau fa-3x"></i>
-                    </div>
-                    <div class="col">
-                        <i class="fab fa-r-project fa-3x"></i>
-                    </div>
-                    <div class="col">
-                        <i class="fab fa-git fa-3x"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-4">
-                <a class="btn btn-lg btn-outline-light" target="_blank" rel="noopener noreferrer" href="resume/rotunda_resume_web.pdf">
-                    <i class="fas fa-download mr-2"></i>
-                    Resume
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education -->
-    <section class="education" id="education">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-secondary mb-0">
-                Education
-            </h2>
-            <hr class="star-dark mb-5" />
-            <div class="credential">
-                <h2 class="location mb-0">
-                    University of California Berkeley |
-                    <span class="credential-date text-muted">January 2021</span>
-                </h2>
-                <p class="lead">Certificate in Data Analytics</p>
-                <p class="credential-description">
-                    A 24-week intensive program focused on gaining technical programming skills in 
-                    Excel, VBA, Python, R, JavaScript, SQL Databases, Tableau, Big Data, and Machine Learning.
-                </p>
-            </div>
-            <hr class="credential-divider" />
-            <div class="credential">
-                <h2 class="location mb-0">
-                    Suffolk University Sawyer Business School |
-                    <span class="credential-date text-muted">May 2014</span>
-                </h2>
-                <p class="lead">Bachelor of Science in Business Administration<br>
-                     Major: Management <br>
-                     Monior: Information Systems
-                </p>
-                <p class="credential-description">
-                    
-                </p>
-            </div>
-            <hr class="credential-divider" />
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer text-center" id="connect">
+    <footer class="footer text-left" id="connect">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <h2 class="text-center text-uppercase mb-3">
-                        Connect with Me
+                <div class="">
+                    <h2 class="text-uppercase mb-3">
+                        Info
                     </h2>
-                    <p class="text-uppercase mb-4">
-                        tcrotunda@gmail.com
-                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <h5 class="mb-4">Email: msft@msft-hockey.com</h5>
+            </div>
+            <div class="row">
+                <h5 class="mb-4">Address: 1234 Hockey Ln, Fullerton CA, 92831</h5>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 offset-md-3">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item">
-                            <a class="btn-social text-center rounded-circle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tcrotunda/">
-                                <i class="fab fa-fw fa-linkedin-in"></i>
+                            <a class="btn-social text-center rounded-circle" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/camp.hockey/">
+                                <i class="fa-brands fa-square-instagram"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a class="btn-social text-center rounded-circle" target="_blank" rel="noopener noreferrer" href="https://github.com/tcrotunda">
-                                <i class="fab fa-github"></i>
+                                <i class="fa-brands fa-github"></i>
                             </a>
                         </li>
                     </ul>
@@ -232,67 +138,60 @@
         </div>
     </footer>
 
-    <div class="copyright py-4 text-center text-white">
+    <div class="copyright py-4 text-center text-secondary">
         <div class="container">
-            <small>Copyright &copy; TC Rotunda 2020</small>
+            <small>Copyright &copy; MSFT 2023</small>
         </div>
     </div>
 
-
-
-    <!-- Portfolio Modals: These are what opens when you click on each project -->
-    <!-- Portfolio Modal 1 -->
-    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-1">
-        <div class="portfolio-modal-dialog bg-white">
-            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+    <!-- Upcoming Event Modals: These are what opens when you click on each project -->
+    <!-- Upcoming Event Modal 1 -->
+    <div class="modal upcomingevents-modal mfp-hide" id="upcomingevents-modal-1">
+        <div class="upcomingevents-modal-dialog bg-white">
+            <a class="close-button upcomingevents-modal-dismiss" href="#" data-dismiss="modal">
                 <i class="fa fa-2x fa-times close-link"></i>
             </a>
             <div class="container text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-secondary text-uppercase mb-0">
-                            Mars
+                            10u Ironman
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="static/images/portfolio/mars.jpeg" alt="" />
+                        <img class="img-fluid mb-5" src=".jpeg" alt="" />
                         <p class="mb-5">
-                            Ready to dive into the world of Mars? This project scrapes the lastest data from multiple pages.
-                            The lastest Mars news is scraped first, followed by the lastest image, Mars facts, and finally hemisphere images.
+                            1.26.2023 <br>
+                            One day, 4 teams, only 1 winner.
                         </p>
-                        <a class="btn btn-primary portfolio-modal-dismiss" target="_blank" rel="noopener noreferrer" href="https://github.com/tcrotunda/mars">
-                            View Code</a>
+                        <a class="btn btn-primary upcomingevents-modal-dismiss" target="_blank" rel="noopener noreferrer" href="">
+                            Register</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Portfolio Modal 2 -->
-    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-2">
-        <div class="portfolio-modal-dialog bg-white">
-            <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
+    <!-- Upcoming Events Modal 2 -->
+    <div class="modal upcomingevents-modal mfp-hide" id="upcomingevents-modal-2">
+        <div class="upcomingevents-modal-dialog bg-white">
+            <a class="close-button upcomingevents-modal-dismiss" href="#" data-dismiss="modal">
                 <i class="fa fa-2x fa-times close-link"></i>
             </a>
             <div class="container text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-secondary text-uppercase mb-0">
-                            Earthquakes
+                            12u Ironman
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="static/images/portfolio/earthquakes.jpeg" alt="" />
+                        <img class="img-fluid mb-5" src=".jpeg" alt="" />
                         <p class="mb-5">
-                            This project explores earthquakes around the world. View the live demo. Here, 
-                            earthquakes from the last 7 days recorded by USGS are placed on a map. 
-                            In addition to all earthquakes there are two other layers: tectonic plates and 
-                            major eathquakes. Change the map style or filter the layers for your needs.
+                            1.27.2023 <br>
+                            One day, 4 teams, only 1 winner.
                         </p>
-                        <a class="btn btn-primary portfolio-modal-dismiss" target="_blank" rel="noopener noreferrer" href="https://tcrotunda.github.io/earthquakes/">
-                            Live Demo
+                        <a class="btn btn-primary upcomingevents-modal-dismiss" target="_blank" rel="noopener noreferrer" href="">
+                            Register
                         </a>
-
-                        <a class="btn btn-primary portfolio-modal-dismiss" target="_blank" rel="noopener noreferrer" href="https://github.com/tcrotunda/earthquakes">
-                            View Code</a>
                     </div>
                 </div>
             </div>
@@ -300,7 +199,7 @@
     </div>
 
     <!-- Portfolio Modal 3 -->
-    <div class="modal portfolio-modal mfp-hide" id="portfolio-modal-3">
+    <div class="modal upcomingecents-modal mfp-hide" id="portfolio-modal-3">
         <div class="portfolio-modal-dialog bg-white">
             <a class="close-button portfolio-modal-dismiss" href="#" data-dismiss="modal">
                 <i class="fa fa-2x fa-times close-link"></i>
@@ -309,21 +208,19 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-secondary text-uppercase mb-0">
-                            Bellybutton Bacteria
+                            Alex Owens
                         </h2>
                         <hr class="star-dark mb-5" />
-                        <img class="img-fluid mb-5" src="static/images/portfolio/bacteria.jpeg" alt="" />
+                        <img class="img-fluid mb-5" src=".jpeg" alt="" />
                         <p class="mb-5">
-                            Explore bacteria in the most unusual place. In this project we look at 
-                            bellybutton bacteria. View the live demo. Change the subject identification 
-                            number and watch as the dashboards adjust for that subject.
+                            1.28.2023 <br>
+                            - Stickhandling
+                            - Shooting
+                            -Skating
                         </p>
-                        <a class="btn btn-primary portfolio-modal-dismiss" target="_blank" rel="noopener noreferrer" href="https://tcrotunda.github.io/bellybutton_science/">
-                            Live Demo
+                        <a class="btn btn-primary portfolio-modal-dismiss" target="_blank" rel="noopener noreferrer" href="">
+                            Register
                         </a>
-
-                        <a class="btn btn-primary portfolio-modal-dismiss" target="_blank" rel="noopener noreferrer" href="https://github.com/tcrotunda/bellybutton_science">
-                            View Code</a>
                     </div>
                 </div>
             </div>
